@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #fff;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: normal;
+  display: flex;
+}
+
+.fill {
+  flex: 1;
+}
+
+.colum {
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  border: none;
+}
+
+.container {
+  background-color: #121212;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 47px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.gradient_bg {
+  filter: blur(200px);
+  background: #ffda3e;
+  border-radius: 775px;
+  width: 775px;
+  height: 775px;
+  position: absolute;
+  top: -473px;
+  right: -65px;
+}
+
+ul {
+  z-index: 2;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ul > li {
+  color: #fff;
+  margin-left: 56px;
+  font-size: 24px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.desc {
+  flex-direction: column;
+}
+
+.desc-title {
+  margin-top: 56px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.desc-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.click-section {
+  align-items: center;
+  margin-top: 24px;
+}
+
+.desc-btn {
+  background: #ffda3e;
+  border-width: 0;
+  border-radius: 27.5px;
+  align-self: flex-start;
+  padding: 8px 24px;
+}
+
+.more {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.more-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.more-text {
+  color: #ffffff63;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.carousel-container {
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  overflow: scroll;
+}
+
+.carousel-card {
+  border-radius: 8%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 380px;
+  margin-right: 50px;
+  padding: 16px;
+}
+
+.small-img {
+  width: 100px;
+  height: 100px;
+  animation: 20s linear infinite rotateAnimation;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.desc-container {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.center-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.center-desc {
+  font-size: 10px;
+  font-weight: 275;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  scroll-behavior: smooth;
+  font-style: normal;
+  line-height: normal;
+  font-family: Poppins;
+  flex-shrink: 0;
+  color: #fff;
+}
+.fill {
+  flex: 1;
+}
+
+.colum {
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 47px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradient_bg {
+  position: absolute;
+  top: -473px;
+  right: -65px;
+  width: 775px;
+  height: 775px;
+  border-radius: 775px;
+  background: #ffda3e;
+  filter: blur(200px);
+}
+
+ul {
+  width: 100%;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+ul > li {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  list-style-type: none;
+  margin-left: 56px;
+}
+
+.desc {
+  flex-direction: column;
+}
+
+.desc-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 56;
+}
+
+.desc-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.click-section {
+  margin-top: 24px;
+  align-items: center;
+}
+
+.desc-btn {
+  border-radius: 27.5px;
+  background: #ffda3e;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0;
+  align-self: flex-start;
+}
+
+.more {
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.more-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.more-text {
+  color: rgba(255, 255, 255, 0.39);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.carousel-container {
+  width: 100%;
+  align-items: center;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  /* border: 1px solid #fff ; */
+  margin-top: 50px;
+}
+
+.carousel-card {
+  /* border: 1px solid #ccc; */
+  width: 300px;
+  height: 380px;
+  border-radius: 8%;
+  margin-right: 50px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-item.active {
+}
+
+.carousel-item.inactive {
+}
+
+.small-img {
+  width: 100px;
+  height: 100px;
+  animation: rotateAnimation 20s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.desc-container {
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.center-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.center-desc {
+  font-size: 10px;
+  font-weight: 275;
+}
